@@ -1,0 +1,3 @@
+- [x] Add three clinic photos
+- [x] Add address and daily opening hours
+- [x] Verify desktop and mobile layouts
