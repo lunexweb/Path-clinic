@@ -6,7 +6,7 @@ import { Reveal } from "@/components/reveal";
 import logo from "@/assets/path-clinic-logo.png";
 import heroImage from "@/assets/path-clinic-hero.jpg";
 import homeCareImage from "@/assets/path-clinic-home-care.jpg";
-import woundCareAsset from "@/assets/path-clinic-wound-care.png.asset.json";
+import woundCareImage from "@/assets/path-clinic-wound-care.png";
 import immunizationImage from "@/assets/path-clinic-immunization.jpg";
 import consultationImage from "@/assets/path-clinic-consultation.jpg";
 
@@ -125,7 +125,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <div className="max-w-2xl"><p className="text-sm font-bold uppercase text-primary">Inside Path-Clinic</p><h2 className="mt-3 text-4xl font-bold leading-tight text-brand-deep sm:text-5xl">Care you can see and feel.</h2></div>
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <figure className="group overflow-hidden rounded-lg"><img src={woundCareAsset.url} alt="Path-Clinic nurse providing professional wound care in the clinic" loading="lazy" className="aspect-[4/3] h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" /><figcaption className="mt-3 text-sm font-semibold text-muted-foreground">Professional wound care</figcaption></figure>
+            <figure className="group overflow-hidden rounded-lg"><img src={woundCareImage} alt="Path-Clinic nurse providing professional wound care in the clinic" loading="lazy" className="aspect-[4/3] h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" /><figcaption className="mt-3 text-sm font-semibold text-muted-foreground">Professional wound care</figcaption></figure>
             <figure className="group overflow-hidden rounded-lg"><img src={immunizationImage} alt="Path-Clinic nurse giving an immunization to a patient" loading="lazy" width={1200} height={912} className="aspect-[4/3] h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" /><figcaption className="mt-3 text-sm font-semibold text-muted-foreground">Immunization services</figcaption></figure>
             <figure className="group overflow-hidden rounded-lg"><img src={consultationImage} alt="Path-Clinic nurse consulting with a patient" loading="lazy" width={1200} height={912} className="aspect-[4/3] h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" /><figcaption className="mt-3 text-sm font-semibold text-muted-foreground">Everyday consultations</figcaption></figure>
           </div>
